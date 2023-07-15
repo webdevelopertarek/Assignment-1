@@ -71,3 +71,24 @@
   line-height: normal;
   margin-top: -10px;
 }
+.threeflowers{
+  padding: 100px 200px 0px 200px;
+}
+
+
+.firstflower{
+  width: 464px;
+  height: 538px;
+  background-color:rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  /* padding-bottom: -200px; */
+  margin-bottom: -20px;
+  
+}
+.first{
+line-height: 300px;
+}
+.flowername{
+
+}
