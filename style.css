@@ -71,11 +71,14 @@
   line-height: normal;
   margin-top: -10px;
 }
-.threeflowers{
-  padding: 100px 200px 0px 200px;
+.all-flowers{
+  display: flex;
+  gap: 50px;
 }
 
-
+.firstoneflowers{
+  padding: 100px 0px 0px 150px;
+}
 .firstflower{
   width: 464px;
   height: 538px;
@@ -84,11 +87,46 @@
   display: flex;
   /* padding-bottom: -200px; */
   margin-bottom: -20px;
-  
 }
-.first{
-line-height: 300px;
+.firstflowername{
+  font-size: 30px;
+  margin-left: 150px;
+  color: #a72162;
 }
-.flowername{
 
+.secondoneflowers{
+  padding: 100px 0px 0px 0px;
+}
+.secondflower{
+  width: 464px;
+  height: 538px;
+  background-color:rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  /* padding-bottom: -200px; */
+  margin-bottom: -20px;
+}
+.secondflowername{
+  font-size: 30px;
+  margin-left: 150px;
+  color: #a72162;
+}
+
+
+.thirdoneflowers{
+  padding: 100px 0px 0px 0px;
+}
+.thirdflower{
+  width: 464px;
+  height: 538px;
+  background-color:rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  /* padding-bottom: -200px; */
+  margin-bottom: -20px;
+}
+.thirdflowername{
+  font-size: 30px;
+  margin-left: 150px;
+  color: #a72162;
 }
