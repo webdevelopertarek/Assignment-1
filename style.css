@@ -9,7 +9,7 @@
   font-weight: 700;
   line-height: normal;
   border: none;
-  padding: 16px 35px;
+  padding: 16px 40px;
   cursor: pointer;
 }
 .header-part {
@@ -40,7 +40,7 @@
   font-size: 20px;
 }
 .header-right {
-  margin-right: 500px;
+  margin-right: 300px;
   /* margin-bottom: 0px; */
   padding-top: 50px;
 
