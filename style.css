@@ -1,10 +1,10 @@
-*{
-  font-family: 'Lato', sans-serif;
+* {
+  font-family: "Lato", sans-serif;
 }
-.button{
+.button {
   border-radius: 50px;
-  background: #E55473;
-  color: #FFF;
+  background: #e55473;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
@@ -34,7 +34,7 @@
   line-height: normal;
   padding-top: 30px;
 }
-.parargraph{
+.parargraph {
   text-align: justify;
   padding: 2px;
   font-size: 20px;
@@ -43,5 +43,31 @@
   margin-right: 300px;
   /* margin-bottom: 0px; */
   padding-top: 50px;
-
+}
+.border {
+  width: 80%;
+  background-color: #e55473;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline-block;
+}
+.title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 100px;
+}
+.Our-Featured-Flowers{
+  padding-top: 20px;
+}
+.featured-paragraph{
+  color: #272727;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: -10px;
 }
