@@ -87,15 +87,21 @@
   padding: 100px 0px 0px 35px;
 }
 .firstflower{
+  position: relative;
   width: 464px;
   height: 538px;
   background-color:rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
-  align-items: center;
-  /* text-align: center; */
-  /* display: flex; */
-  /* padding-bottom: -200px; */
-  /* margin-bottom: -20px; */
+}
+.firstimagecontroller{
+  position: absolute;
+  justify-content: center;
+  top: 10%;
+  left: 15%;
+}
+.first{
+position: absolute;
+justify-content: center;
 }
 .firstflowername{
   font-size: 30px;
@@ -107,15 +113,22 @@
   padding: 100px 0px 0px 0px;
 }
 .secondflower{
+  /* position: relative; */
   width: 464px;
   height: 538px;
   background-color:rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
-  text-align: center;
-  /* display: flex; */
-  /* padding-bottom: -200px; */
-  /* margin-bottom: -20px; */
 }
+.secondimagecontroller{
+  position: absolute; */
+  justify-content: center;
+  top: 20%; 
+  left: 50%;
+}
+.second{
+  position: absolute;
+  justify-content: center;
+  }
 .secondflowername{
   font-size: 30px;
   margin-left: 150px;
@@ -127,15 +140,22 @@
   padding: 100px 0px 0px 0;
 }
 .thirdflower{
-  width: 464px;
-  height: 538px;
-  background-color:hsla(331, 67%, 39%, 0.149);
-  border-radius: 300px 300px 0px 0px;
-  text-align: center;
-  /* display: flex; */
-  /* padding-bottom: -200px; */
-  /* margin-bottom: -20px; */
+    position: relative;
+    width: 464px;
+    height: 538px;
+    background-color:rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
 }
+.thirdimagecontroller{
+  position: absolute;
+  justify-content: center;
+  top: 200px;
+  left: 1800px;
+}
+.third{
+  position: absolute;
+  justify-content: center;
+  }
 .thirdflowername{
   font-size: 30px;
   margin-left: 150px;
