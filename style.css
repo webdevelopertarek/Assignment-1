@@ -74,11 +74,11 @@
 .all-flowers{
   display: flex;
   justify-content: space-around;
-  gap: 50px;
+  gap: 20px;
 }
 
 .firstoneflowers{
-  padding: 100px 0px 0px 40px;
+  padding: 100px 0px 0px 35px;
 
 }
 .firstflower{
