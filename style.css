@@ -73,11 +73,12 @@
 }
 .all-flowers{
   display: flex;
+  justify-content: space-around;
   gap: 50px;
 }
 
 .firstoneflowers{
-  padding: 100px 0px 0px 150px;
+  padding: 100px 0px 0px 25px;
 
 }
 .firstflower{
