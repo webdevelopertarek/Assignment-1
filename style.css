@@ -52,24 +52,29 @@
   display: inline-block;
 }
 .title {
-  color: #272727;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: 800;
+  /* color: #272727;
   text-align: center;
   font-size: 40px;
   font-style: normal;
-  font-weight: 800;
   line-height: normal;
-  padding-top: 100px;
+  padding-top: 100px; */
 }
 .Our-Featured-Flowers{
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .featured-paragraph{
-  color: #272727;
+  font-size: 16px;
+  margin-top: -10px;
   text-align: center;
+  /* color: #272727;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
-  margin-top: -10px;
+  margin-top: -10px; */
 }
 .all-flowers{
   display: flex;
