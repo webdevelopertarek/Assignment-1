@@ -173,9 +173,20 @@ margin-top: -10px;
   line-height: normal;
   padding-top: 100px;
 }
+.control-div {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+
+}
 
 .off-color{
   color: #a72162;
+}
+.hot-deal-paragraph{
+  font-size: 20px;
+  justify-content: center;
+  text-align: left;
 }
 .button-hot {
   width: 100px;
@@ -189,4 +200,15 @@ margin-top: -10px;
   padding: 16px 40px;
   cursor: pointer;
   text-align: center;
+}
+.left-part-hot{
+  /* text-align: center; */
+  /* align-items: center; */
+}
+.hot-image{
+  margin-right: 50px;
+  margin-top:-50px;
+  /* margin-bottom: 0px; */
+  /* padding-top: -100px; */
+
 }
