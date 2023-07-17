@@ -118,17 +118,15 @@ justify-content: center;
   height: 538px;
   background-color:rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
-}
-.secondimagecontroller{
-  position: absolute; */
-  justify-content: center;
-  top: 20%; 
-  left: 50%;
+  /* display: flex;
+  justify-content: center; */
+  /* top: 500px;
+  left: 300px; */
 }
 .second{
   position: absolute;
   justify-content: center;
-  }
+}
 .secondflowername{
   font-size: 30px;
   margin-left: 150px;
@@ -274,15 +272,18 @@ margin-left: 20px;
 }
 
 .leatest-deal-contact{
-  width: 60%;
+  width: 50%;
   background-image: url('Flower Asset/Rectangle\ 9.png');
   border-radius: 10px;
   padding: 100px 180px;
-margin: auto;
+  margin: auto;
   background-repeat: no-repeat;
   /* justify-content: center; */
   display: grid;
   place-items: center;
+  justify-content: center;
+  margin-top: 20px ;
+  margin-bottom: 100px;
 }
 
 .contact-form{
@@ -325,10 +326,13 @@ input{
   /* width: 300px; */
   text-align: left;
 }
+/* footer section */
 .footer{
   height: 449px;
   width: auto;
   background-color: #272727;
+  display:grid ;
+  place-items: center;
 }
 .footer-header-flower{
   color: #E55473;
@@ -338,11 +342,12 @@ input{
   font-weight: 800;
   line-height: normal;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  margin-top: -50px;
 }
 .paragraph-style-footer{
   font-size: 16px;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   /* text-align: center; */
   justify-content: center;
   /* margin-left: 300px; */
@@ -362,12 +367,15 @@ input{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  text-align: center;
+  /* text-align: center; */
 }
 .footer-header{
   text-align: center;
-  margin-top: 200px ;
+  margin-top: 100px ;
 }
 .paragraph-footer{
+  text-align: center;
+}
+.flower-footer{
   text-align: center;
 }
